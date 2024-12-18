@@ -457,7 +457,7 @@ body {
   margin-top: -0.3125rem;
 }
 
-.bottom-block__mail svg {
+.bottom-block__mail img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 1.625rem;
   flex: 0 0 1.625rem;
@@ -1314,7 +1314,7 @@ body {
     margin-top: -0.3125rem;
   }
 
-  .menu__mail svg {
+  .menu__mail img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 1.625rem;
     flex: 0 0 1.625rem;
@@ -1396,7 +1396,7 @@ body {
     max-width: 100%;
   }
 
-  .bottom-block__mail svg {
+  .bottom-block__mail img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 1.5rem;
     flex: 0 0 1.5rem;
@@ -1516,12 +1516,6 @@ body {
   }
 }
 
-@media (max-width: 61.99875em) and (any-hover: hover) {
-  .menu__mail:hover {
-    background-color: #ff4f00;
-  }
-}
-
 @media (max-width: 47.99875em) {
   .bottom-block {
     -webkit-box-orient: vertical;
@@ -1556,6 +1550,10 @@ body {
 
   .menu__language:hover {
     color: #ff4f00;
+  }
+
+  .menu__mail:hover {
+    background-color: #ff4f00;
   }
 
   .header-block__link:hover {
